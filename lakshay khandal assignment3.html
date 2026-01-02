@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 400px;
+            width: 400px;
+            border: 1px solid black;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+        }
+        .b1{
+            background-color: rgb(241, 96, 120);
+        }
+        .b2{
+            background-color: rgb(104, 50, 90);
+        }
+        .b3{
+            background-color: #a1c2e5;
+        }
+        .b4{
+            background-color: hsl(69, 52%, 57%);
+        }
+        .b5{
+            background-color: rgba(69, 148, 194, 0.9);
+        }
+        .b6{
+            background-color: hsla(258, 82%, 78%, 0.9); 
+        }
+        .b7{
+            background: radial-gradient(pink,blue);
+        }
+        .b8{
+           
+            background: linear-gradient(purple,olive);
+        }
+        .b9{
+            background-image:url(sea.jpg);
+            background-size: 400px 400px;
+        }
+        .main{
+            display: flex;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+    <div class="box b1">constant</div>
+    <div class="box b2">rgb</div>
+    <div class="box b3">hexa</div>
+    <div class="box b4">hsl</div>
+    <div class="box b5">rgba</div>
+    <div class="box b6">hsla</div>
+    <div class="box b7">radial</div>
+    <div class="box b8">linear</div>
+    <div class="box b9">image</div>
+    </div>
+   
+</body>
+</html>
